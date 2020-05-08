@@ -1,0 +1,477 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+html
+{
+   background-color:#fff;
+   color:#555;
+   font-family:'Lato','Arial',sans-serif;
+   font-weight:500;
+   font-size:20px;
+   text-rendering:optimizeLegibility;
+}
+
+.row
+{
+   max-width:1140px;
+   margin:0 auto;
+}
+section
+{
+  padding:80px 0;
+  
+}
+
+
+
+
+
+.btn:link,
+.btn:visited
+{
+
+ display:inline-block;
+ padding:10px 30px;
+ font-weight:300;
+ text-decoration:none;
+ border-radius:2px;
+ transition:background-color:0.2s,border 0.2s,color:0.2s;
+}
+.btn-full:link,
+.btn-full:visited
+{
+  background-color:#0fbcf9;
+  border:1px solid #0fbcf9;
+   color:#fff;
+   margin-right:15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited
+{
+  border:2px solid #0fbcf9;
+  color:black;
+}
+ 
+.btn:hover,
+.btn:active
+{
+   background-color:#00d8d6;
+}
+
+.btn-full:hover,
+.btn-full:active
+{
+border:2px solid #00d8d6;
+}
+.btn-ghost:hover,
+.btn-ghost:active
+{
+ border:2px solid #00d8d6;
+ color:black;
+}
+
+.section-steps
+{
+}
+
+.steps-box:first-child   /* this is left one pseudo class */
+{
+  text-align:left;/*taki phone wali image right side rhe*/
+   padding-right:3%;
+   margin-top:10px;   
+}
+.steps-box :last-child  /* this is right one pseudo class  */
+{  
+  padding-left:3%;
+  margin-top:30px;
+}
+.app-screen
+{
+   width:60%;
+   margin-right:75px;
+   float:right;
+}
+.works-step
+{ 
+   margin-bottom:20px; 
+}
+.works-step:last-of-type
+{
+  margin-bottom:50px;
+  
+}
+
+.works-step h1 /* for bullet */
+{
+ 
+ 
+  display:inline-block;
+  text-align:left;
+  float:left;
+   margin-top:0;
+   margin-bottom:20px;
+   color:black;
+    font-size:240%;
+	word-spacing:6px;
+	letter-spacing:1px;
+  margin-right:25px;
+}
+h2
+   {
+   
+  
+  text-align:center;
+   font-size:100%;
+   word-spacing:4px;
+   margin-right:55px;
+    margin-left:45px;
+   margin-bottom:30px;
+    color:#2d3436; 
+
+  }
+.works-step p
+{
+   font-size:80%;
+   line-height:145%;
+   color:#1e272e;
+   margin-top:0;
+   margin-bottom:20px;
+  text-align:left;
+}
+.box 
+{
+  padding:-25%;
+}
+
+/* ----table-------*/
+.section-st
+{
+  
+ background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.0)),
+ url(resources/BG.png);
+  background-position:center;
+
+  
+  height:30vh;
+  
+  /*so hero image in center and cover toh hero image mein jo image hai woh plate hai woh center mein hogi*/
+  background-position:center;
+  background-attachment:fixed;
+
+}
+.ap
+{
+  background-color:#ffffff;
+  width:40%;
+  margin-left:30%;
+  
+  
+  box-shadow:10px 5px solid #7f8c8d;
+  
+}
+
+
+/*----pricing--------*/
+.section-price
+{
+   width:50%;
+   margin-left:22%;
+   margin-right:22%;
+   margin-top:5%;
+   
+}
+.section-price .long-copy
+{
+   font-size:70%;
+   text-align:center;
+}
+.section-price h3
+{
+    font-size:120%;
+	text-align:center;
+	color:#000000;
+}
+
+/*-------serving---------*/
+
+.main-nav
+{
+  
+  list-style:none;
+  margin-top:55px;
+  margin-left:130px;
+}
+.main-nav li
+{
+   display:inline-block;
+   
+}
+.main-nav li a:link,
+.main-nav li  a:visited
+{
+  padding:0px;
+  color:#2f3640;
+  text-decoration:none;
+  
+  font-size:90%;
+   border:2px solid #dcdde1;
+   transition:border 0.2s;
+
+}
+.main-nav li a:hover,
+.main-nav li  a:active
+{
+   border:4px solid #0097e6;
+}
+
+/*-----Select-----------*/
+.section-plans
+{
+  background-color:#f4f4f4;
+   width:70%;
+   margin:22%;
+}
+.plan-box 
+{
+ background-color:#fff;/*for grey*/
+ border-radius:1px solid #718093;
+ width:100%;
+ transition:border 0.2s;
+ box-shadow:5px  10px  solid #718093;
+}
+.plan-box h3
+
+{
+   font-size:90%;
+   margin-bottom:45px;
+   font-weight:30%;
+   color:#000000;
+}
+
+.plan-box div
+{
+   padding:10px; 
+   border:1px solid #718093;
+}
+
+.plan-price
+{
+  font-size:150%;
+  font-weight:50%;
+  color:#000000;
+}
+.plan-price span
+{
+  font-size:50%;
+  color:  #718093;
+}
+.plan-price-meal
+{
+  font-size:90%;
+  font-weight:40%;
+  color:#000000;
+  
+}
+/*--------------Customer---------------*/
+.section-customer
+{
+  width:90%;
+   margin-top:0;
+   margin-left:120px;
+}
+.steps-box:first-child   /* this is left one pseudo class */
+{
+  text-align:right;
+   padding-right:3%;
+   margin-top:20px;   
+}
+.steps-box :last-child  /* this is right one pseudo class  */
+{  
+  padding-left:3%;
+  margin-top:70px;
+}
+.section-customer h2
+   {
+   
+  
+  text-align:center;
+   font-size:170%;
+   word-spacing:1px;
+   display:inline-block;
+   margin-bottom:30px;
+    color:#000000; 
+     font-weight:40%;
+ }
+ 
+
+blockquote
+{
+  padding:0%;
+  font-style:bold;
+  line-height:145%;
+  position:absolute;
+  color:#17c0eb;
+  margin-top:40px;
+}
+
+blockquote:before
+{
+  content:"\201C";
+  font-size:500%;
+  display:block;
+  position:absolute;
+  top:-5px;
+  left:-3px;
+}
+.p
+{
+   font-size:90%;
+   color:#000000;
+   margin-top:-53%;
+   display:inline-block;
+   
+}
+.work-step
+{ 
+   margin-bottom:10px; 
+   margin-top:0;
+}
+.work-step:last-of-type
+{
+  margin-bottom:30px;
+  
+}
+.work-step p
+{
+   font-size:90%;
+   line-height:135%;
+   color:#aaa69d;
+   font-weight:500%;
+   margin-top:-25%;
+   margin-bottom:20px;
+   
+}
+.work-step h3
+{
+   font-size:110%;
+   margin-top:0%;
+   text-align:left;
+   margin-right:20%;
+   color:#000000;
+}
+.work-step h2
+{
+   font-size:110%;
+   margin-top:0%;
+   text-align:left;
+   margin-right:20%;
+   color:#000000;
+}
+
+ .ap-screen
+{
+   width:90%;
+   margin-right:75px;
+   float:right;
+}
+/*------dots---------*/
+.dot
+{
+   text-align:center;
+    padding-left:10px;
+	
+}
+.dot1{
+  height: 10px;
+  width: 10px;
+  
+  background-color:#34ace0;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+.dot2 {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:2%;
+}
+/*-----------user--------*/
+
+.section-user
+{
+   width:90%;
+   margin-left:2%;
+}
+.step-box:first-child   /* this is left one pseudo class */
+{
+  text-align:left;/*taki phone wali image right side rhe*/
+   padding-right:3%;
+   margin-top:10px;   
+}
+.step-box :last-child  /* this is right one pseudo class  */
+{  
+  padding-left:3%;
+  margin-top:30px;
+  
+}
+
+.a-screen
+{
+   width:120%;
+   margin-right:5px;
+  margin-left:155px;
+   float:left;
+}
+.wor-step
+{ 
+   margin-bottom:20px; 
+}
+.wor-step:last-of-type
+{
+  margin-bottom:50px;
+  
+}
+
+.wor-step h1 /* for bullet */
+{
+ 
+ 
+  display:inline-block;
+  text-align:left;
+   margin-top:0;
+   margin-bottom:20px;
+   color:black;
+   font-size:150%;
+   word-spacing:2px;
+  letter-spacing:0px;
+  margin-right:20%;
+}
+.wor-step h2
+   {
+   
+  
+  text-align:left;
+   font-size:120%;
+   word-spacing:1px;
+   margin-right:55px;
+    margin-left:5px;
+   margin-bottom:30px;
+    color:#2d3436; 
+
+  }
+.wor-step p
+{
+   font-size:80%;
+   line-height:145%;
+   color:#84817a;
+   margin-top:0px;
+   margin-bottom:20px;
+ 
+}

@@ -1,0 +1,281 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+html
+{
+   background-color:#fff;
+   color:#555;
+   font-family:'Lato','Arial',sans-serif;
+   font-weight:500;
+   font-size:20px;
+   text-rendering:optimizeLegibility;
+}
+
+.row
+{
+   max-width:1140px;
+   margin:0 auto;
+}
+section
+{
+  padding:80px 0;
+  
+}
+
+
+
+
+
+.btn:link,
+.btn:visited
+{
+
+ display:inline-block;
+ padding:10px 30px;
+ font-weight:300;
+ text-decoration:none;
+ border-radius:2px;
+ transition:background-color:0.2s,border 0.2s,color:0.2s;
+}
+.btn-full:link,
+.btn-full:visited
+{
+  background-color:#0fbcf9;
+  border:1px solid #0fbcf9;
+   color:#fff;
+   margin-right:15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited
+{
+  border:2px solid #0fbcf9;
+  color:black;
+}
+ 
+.btn:hover,
+.btn:active
+{
+   background-color:#00d8d6;
+}
+
+.btn-full:hover,
+.btn-full:active
+{
+border:2px solid #00d8d6;
+}
+.btn-ghost:hover,
+.btn-ghost:active
+{
+ border:2px solid #00d8d6;
+ color:black;
+}
+
+.section-steps
+{
+}
+
+.steps-box:first-child   /* this is left one pseudo class */
+{
+  text-align:left;/*taki phone wali image right side rhe*/
+   padding-right:3%;
+   margin-top:10px;   
+}
+.steps-box :last-child  /* this is right one pseudo class  */
+{  
+  padding-left:3%;
+  margin-top:30px;
+}
+.app-screen
+{
+   width:60%;
+   margin-right:75px;
+   float:right;
+}
+.works-step
+{ 
+   margin-bottom:20px; 
+}
+.works-step:last-of-type
+{
+  margin-bottom:50px;
+  
+}
+
+.works-step h1 /* for bullet */
+{
+ 
+ 
+  display:inline-block;
+  text-align:left;
+  float:left;
+   margin-top:0;
+   margin-bottom:20px;
+   color:black;
+    font-size:240%;
+	word-spacing:6px;
+	letter-spacing:1px;
+  margin-right:25px;
+}
+h2
+   {
+   
+  
+  text-align:center;
+   font-size:100%;
+   word-spacing:4px;
+   margin-right:55px;
+    margin-left:45px;
+   margin-bottom:30px;
+    color:#2d3436; 
+
+  }
+.works-step p
+{
+   font-size:80%;
+   line-height:145%;
+   color:#1e272e;
+   margin-top:0;
+   margin-bottom:20px;
+ 
+}
+.box 
+{
+  padding:-25%;
+}
+
+/* ----table-------*/
+.section-st
+{
+  background-color:#ecf0f1;
+  margin-left:80px ;
+   margin-right:80px ;
+   height:400px;
+  margin-bottom:30px;
+}
+.section-table
+{
+  background-color:#ffffff;
+  width:40%;
+  height:auto;
+  margin-right:31%;
+  float:right;
+  box-shadow:10px 5px solid #7f8c8d;
+  
+}
+
+.table1:first-child
+{
+   text-align:left;/*taki phone wali image right side rhe*/
+   padding-right:3%;
+   margin-top:30px; 
+     
+}
+.table1:last-child
+{  
+   padding-left:3%;
+  margin-top:0; 
+  background-color:#ffffff;
+}
+
+.table1:first-child #table1
+{
+  width: 80%;
+  color:#636e72;
+ 
+   border: 1px solid #ffffff;
+   float:right;
+}
+
+#table1 td {
+  
+  border: 1px  #ffffff;
+  padding: 8px;
+  text-align:center;
+  font-size:90%;
+}
+#table1 th 
+{
+  
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+
+.table1:last-child #table
+{
+  width: 80%;
+  color:#636e72;
+  border: 1px solid #95a5a6;
+   float:left;
+   background-color:#ecf0f1;
+}
+
+#table td {
+  
+  border: 1px  #636e72;
+  padding: 8px;
+  text-align:center;
+  font-size:90%;
+}
+
+#table th {
+  
+  border: 1px solid #636e72;
+  text-align: center;
+}
+
+/*----pricing--------*/
+.section-price
+{
+   width:50%;
+   margin:22%;
+   
+   
+}
+.section-price .long-copy
+{
+   font-size:70%;
+   text-align:center;
+}
+.section-price h3
+{
+    font-size:90%;
+	text-align:center;
+}
+
+/*-------serving---------*/
+
+.main-nav
+{
+  
+  list-style:none;
+  margin-top:55px;
+  margin-left:130px;
+}
+.main-nav li
+{
+   display:inline-block;
+   
+}
+.main-nav li a:link,
+.main-nav li  a:visited
+{
+  padding:0px;
+  color:#2f3640;
+  text-decoration:none;
+  
+  font-size:90%;
+   border:2px solid #dcdde1;
+   transition:border 0.2s;
+
+}
+.main-nav li a:hover,
+.main-nav li  a:active
+{
+   border:4px solid #0097e6;
+}
+
