@@ -1,0 +1,188 @@
+/* big tablet to 1200px:(width smaller than 1140px row) */
+@media only screen and ( max-width: 1200px )
+{
+  .work-step
+{
+ 
+  width: 90%;
+  /*some space b/w border of the browser and text */
+  padding: 4% 4%;
+}
+   .row{ padding: 0 2%; }
+}
+
+
+/* small tablet to big tablet:from 768 px to 1023px  */
+@media only screen and ( max-width:1023px )
+{
+    body { font-size: 18px; }
+	section  { padding: 60px 0; }
+	.long-copy
+	{  
+	  width:80%;
+	  margin-left:10%;
+	}
+	.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 14px;
+  margin-left:15%;
+}
+.dot1{
+  height: 5px;
+  width: 5px;
+  
+  background-color:#34ace0;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+.dot2 {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:2%;
+}
+.tog
+{
+   margin-left:28%;
+   margin-top:10%;
+   margin-bottom:1%;
+   margin-right:20%;
+   color:black;
+   padding:1%;
+   display:inline-block;
+}
+  .slider.round {
+  border-radius: 14px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  bottom: 1px;
+  background-color:#2980b9;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+    .dot1{
+  height: 5px;
+  width: 5px;
+  
+  background-color:#34ace0;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+.dot2 {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left:2%;
+}
+	.steps-box { margin-top: 10px; }
+	.steps-box :last-child  /* this is right one pseudo class  */{  margin-top: 10px; }
+	.works-step { margin-bottom: 40px; }
+	.works-step:last-of-type { margin-bottom: 60px; }
+	.work-step { margin-bottom: 40px; }
+	.work-step:last-of-type { margin-bottom: 60px; }
+	.wor-step { margin-bottom: 40px; }
+	.wor-step:last-of-type { margin-bottom: 60px; }
+	.section-user
+{
+   width:60%;
+   margin-left:5%;
+}
+.step-box:first-child   /* this is left one pseudo class */
+{
+  
+   padding-right:3%;
+   margin-top:5px;   
+}
+.step-box :last-child  /* this is right one pseudo class  */
+{  
+  padding-left:3%;
+  margin-top:15px;
+  
+}
+	
+	
+	.app-screen { width: 50%; }
+	.ap-screen { width: 50%; }
+	.a-screen { width: 50%; }
+	
+	
+	.section-price { font-size: 90%; }
+	
+	.plan-box { width:100%;  
+	            margin-left: 0%;
+              }
+	.plan-price { font-size: 250%; }	
+    
+    .section-user{ width: 80%;}
+	
+
+/*media query from smaller phone to small tablet which is smaller than ipad width of the ipad 481px to 767px */
+@media only screen and ( max-width: 767px  )
+{
+  body  { font-size: 16px; }
+  section { padding: 30px 0; }
+  .row,
+  .work-step { padding: 2% 4%; }
+  .wor-step { padding: 2% 4%; }
+  .works-step { padding: 0 4%; }
+  .col { width: 100%; 
+         margin: 0 0 4% 0; }
+  
+  
+  h1 { font-size: 110%; }/*160*/
+  h2 { font-size: 90%; }/*140*/
+   
+  .main-nav
+	{  
+	  width: 190%;
+	  margin-left: 0;
+	  
+	}
+	.main-nav li
+	{display:inline-block;}
+	.wor-step { margin-bottom: 40px; }/*50px*/
+	.wor-step:last-of-type { margin-bottom: 50px; }/*60px*/
+	.work-step { margin-bottom: 30px; }/*40px*/
+	.work-step:last-of-type { margin-bottom: 50px; }/*60px*/
+	
+	.works-step { margin-bottom: 30px; }/*40px*/
+	.works-step:last-of-type { margin-bottom: 50px; }/*60px*/
+	
+	.steps-box:first-child   
+        {
+        text-align: center;
+          
+    }
+	.steps-box:last-child   
+        {
+        text-align: center;
+          
+    }
+	
+}
+
+
+/*this rules which will come in here,will apply when the width of the device or the browseris less 
+or equal than 480 pixels and this is the width of old iphones like iphones 5 iphone4  and so on*/  
+@media only screen and(max-width:480px)
+{
+  section  { padding:25px 0; }
+  .section-user{ width: 100%; }
+  
+}

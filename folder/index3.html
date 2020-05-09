@@ -5,18 +5,19 @@
 	 <link rel="stylesheet" type="text/css" href="css/grid.css">
      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
      <link rel="stylesheet" type="text/css" href="css/style1.css">
-</head>
+	  <link rel="stylesheet" type="text/css" href="css/queries.css">
+	  
+	 </head>
 <body>
-     <section class="section-steps">
+         
+      <section class="section-steps">
      <div class="row">
 	 <div class="col span-1-of-2 steps-box">
 	 <div class="works-step">
 	     <h1>Looking For a lollipop Alternative?</h1>
 		 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem
 		 Ipsum has been the industry's standard dummy text ever since the 1500s </p>
-	
-	
-	 <a class="btn btn-full" href="#">Primary CTA</a> 
+	<a class="btn btn-full" href="#">Primary CTA</a> 
 			   <a class="btn btn-ghost" href="#">Secondary CTA</a>
          <!--- <div class="">	 
 		      <a class="btn btn-full" href="#">Primary CTA</a> 
@@ -34,69 +35,87 @@
 	 <div class="row">
 	 <div class="section-st">
 	 <h2>This is a heading <br/>in  two lines</h2>
-	 
-	  <img src="resources/group.png" alt="table" class="ap"/>
-	 
-	 
+	 <img src="resources/group.png" alt="table" class="ap"/>
 	 </div>
 	</div> 
-		
-	
-	</section>
+    </section>
 	<section class="section-price">
 	    <div class="row">
 		<h3>Compare pricing today!</h3>
 		<p class="long-copy">
 		Lorem Ipsum is simply dummy text of the printing and <strong style="color:#00cec9">typesetting</strong>
 		</p>
-		</div>
 		
+		</div>
 		<div class="row">
+		
 		  <nav>
 		       
 				<ul class="main-nav">
-				    <li><a href="#">25 Serving</a></li>
-					<li><a href="#">50 Serving</a></li>
-					<li><a href="#">100 Serving</a></li>
-					<li><a href="#">200 Serving</a></li>
+				    <li value="25"><a href="#" id="1" onclick="select();" >25 Serving</a></li>
+					<li value="50"><a href="#" id="2" onclick="select();">50 Serving</a></li>
+					<li value="100"><a href="#" id="3" onclick="select();">100 Serving</a></li>
+					<li value="200"><a href="#" id="4"onclick="select();" >200 Serving</a></li>
 				</ul>
-			   </div>
+			  
 		  </nav>
+		 </div>
+		<div class="row">
+		  <div class="col span-1-of-3"><div class="tog">Annually<span> &nbsp; 50% off</span></div></div>
+		  <div class="col span-1-of-3">
+		  <div class="tog">
+		  <label class="switch"><input type="checkbox" checked><span class="slider round">
+         </label></div></div>
+		  <div class="col span-1-of-3"><div class="tog">Monthly</div></div>
 		  
-	    
-		<section class="section-plan js--section-features">
+		  </div>
+		  
+		 
+	</section>
+    <section class="section-plan">
 		 
 		  <div class="row">
 		    <div class="col span-1-of-3">
-			 <div class="plan-box js--wp-4">
-			    <div>
+			 <div class="plan-box">
+			    <div id="a">
 				   <h3>lollipop</h3>
 				   <!--span is used for only its purpose is just to appear inside a paragraph--->
-				   <p class="plan-price">$100 <span>Permonth</span></p>
+				   <p class="plan-price" id="demo1">$100 <span>Permonth</span></p>
 				   <p class="plan-price-meal">For 100 Serving</p>
+				  
 				</div>
-				
+				<div id="div1" style="display:none">
+				 
+				 <input type="button" id="LMonthly" value="Monthly">
+				   <input type="button" id="LAnnually" value="Annually">
+				</div>
 			 </div>
 		  </div>
 		  <div class="col span-1-of-3">
 			 <div class="plan-box">
-			    <div>
+			    <div id="b">
 				   <h3>Icecandy</h3>
-				   <p class="plan-price">$200 <span>Permonth</span></p>
+				   <p class="plan-price" id="demo2">$200 <span>Permonth</span></p>
 				   <p class="plan-price-meal">For 100 Serving</p>
 				</div>
-				
+				<div id="div2" style="display:none">
+				   <input type="button" id="IMonthly" value="Monthly">
+				   <input type="button" id="IAnnually" value="Annually">
+				</div>
 				
 			 </div>
 		  </div>
 		  <div class="col span-1-of-3">
 			 <div class="plan-box">
-			    <div>
-				   <h3>Your saving <br>with lollipop</h3>
-				   <p class="plan-price">$200 <span>Permonth</span></p>
+			    <div id="c">
+				   <h3>Your saving<br/>with lollipop</h3>
+				   <p class="plan-price" id="demo3">$100 <span>Permonth</span></p>
 				   <p class="plan-price-meal">For 100 Serving</p>
 				</div>
-				
+				<div id="div3" style="display:none">
+				 <input type="button" id="SMonthly" value="Monthly">
+				   <input type="button" id="SAnnually" value="Annually">
+				</div>
 				
 			 </div>
 		  </div>
@@ -119,7 +138,7 @@
 			   typesetting industry.Lorem Ipsum has been the industry's standard 
 			   dummy text ever since the 1500s</p>
 			   </div> 
-             	<div class="work-step"><h3>Raja Ram</h3><span>Tip World</h3></div>	   
+             	<div class="work-step"><h3>Raja Ram</h3><span>Tips World</h3></div>	   
 			  </div>
 			  </div> 
               <div class="dot">
@@ -130,17 +149,9 @@
                 <span class="dot2"></span>
 			  
               </div>
-           <!--   <div class="row">
-			   <div class="col span-1-of-2 steps-box">
-			   <div class="work-step">
-			   <h1>Loved by users,&nbsp;recommended by experts</h1>
-			   </div>
-			   </div>
-			   <div class="col span-1-of-2 steps-box"></div>
-			  </div>---->
-            			  
+         
 		 </section>
-		  <section class="section-user">
+	      <section class="section-user">
 		     <div class="row">
 			   <div class="col span-1-of-2 step-box">
 			   <div class="wor-step">
@@ -151,8 +162,12 @@
 			   <a class="btn btn-full" href="#">Primary CTA</a> 
 			   </div></div>
 			   <div class="col span-1-of-2 step-box">
-			   <img src="resources/3.jpg" alt="bag" class="a-screen"/>
+			  <img src="resources/3.jpg" alt="bag" class="a-screen"/>
 			   </div>
 		  </section>
+		  <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		 <script src="js/script.js"></script>
+		 
 	 </body>
 	 </html>
